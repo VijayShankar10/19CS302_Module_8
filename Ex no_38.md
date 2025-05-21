@@ -1,22 +1,49 @@
 # # Task
 
-# # Given a positive integer denoting , do the following:
+## AIM:
+To write a program to print the sum and difference of the given two integers .
+## ALGORITHM:
+1. Start.
+2. Define a variables.
+3. Write a program to print the sum and difference of the integers..
+4. Read the value using scanf.
+5. Ask the user to make an input.
+6. Print out the answer.
+7. End.
 
-# If  41<=n <=49 print the lowercase English word corresponding to the number (e.g., forty one for 41 , forty two for 42 etc.).
-If n>49 print Greater than 49.
-## Input Format
+### Developed By:
+```
+Developed by: Vijay Shankar M
+RegisterNumber: 212222040178
+```
 
-The first line contains a single integer, .
+## PROGRAM:
+```c program
+#include <stdio.h>
+int main() {
+ int a, b;
+ int sum, difference;
+ // Input two numbers
+ printf("Enter two
+integers: ");
+ scanf("%d %d", &a,
+&b);
+ // Calculate sum and
+difference
+ sum = a + b;
+ difference = a - b;
+ // Print the results
+ printf("Sum =
+%d\n", sum);
+ printf("Difference =
+%d\n", difference);
+ return 0;
+}
+```
 
-## Constraints
+## OUTPUT
 
-## Output Format
+![Screenshot 2025-05-07 220952](https://github.com/user-attachments/assets/80b94174-447c-494c-9cfc-38f8f0408f8d)
 
-If  41<=n <=49 print the lowercase English word corresponding to the number (e.g., forty one for 4 , forty two for 42 etc.).
-If n>49 print Greater than 49.
-## Sample Input
-
-41
-## Sample Output
-
-forty one
+## RESULT:
+Thus, the program is executed and verified successfully.
